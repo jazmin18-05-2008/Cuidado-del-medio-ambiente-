@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida - Energías Renovables</title>
+    <style>
+        :root {
+            --verde-principal: #2e7d32;
+            --verde-claro: #4caf50;
+            --azul-fondo: #e8f5e9;
+            --gris-oscuro: #333333;
+            --blanco: #ffffff;
+        }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; margin: 0; background-color: var(--azul-fondo); color: var(--gris-oscuro); }
+        header { background-color: var(--verde-principal); color: var(--blanco); padding: 2rem 1rem; text-align: center; }
+        nav { background-color: #1b5e20; display: flex; justify-content: center; padding: 0.5rem; position: sticky; top: 0; }
+        nav a { color: var(--blanco); text-decoration: none; padding: 0.75rem 1.5rem; font-weight: bold; }
+        nav a:hover { background-color: var(--verde-claro); border-radius: 4px; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        main { background: var(--blanco); padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        h2 { color: var(--verde-principal); border-bottom: 2px solid var(--verde-claro); padding-bottom: 0.5rem; }
+        .hero-image { width: 100%; max-height: 350px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; }
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+        th, td { border: 1px solid #dddddd; text-align: left; padding: 12px; }
+        th { background-color: var(--verde-principal); color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        footer { background-color: #212121; color: #b0bec5; text-align: center; padding: 2rem 1rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transición Hacia Energías Renovables</h1>
+        <p>Alternativas limpias para frenar el calentamiento global</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="biodiversidad.html">Biodiversidad</a>
+        <a href="reciclaje.html">Guía de Reciclaje</a>
+        <a href="energia.html">Energías Renovables</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section>
+                <h2>El Fin de la Era de los Combustibles Fósiles</h2>
+                <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80" alt="Aerogeneradores de energía eólica en un campo verde" class="hero-image">
+                <p>Para mitigar las peores consecuencias del cambio climático, el planeta debe abandonar la quema de carbón, petróleo y gas natural. Las energías renovables representan recursos inagotables proporcionados por la naturaleza que no emiten gases de efecto invernadero (GEI) durante su producción.</p>
+            </section>
+
+            <section>
+                <h2>Principales Fuentes Limpias</h2>
+                <p>Las tecnologías actuales nos permiten aprovechar múltiples fuerzas del entorno natural:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Fuente Natural</th>
+                            <th>Ventaja Principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Energía Solar</td>
+                            <td>Radiación del Sol</td>
+                            <td>Abundante y fácil de instalar en hogares urbanos.</td>
+                        </tr>
+                        <tr>
+                            <td>Energía Eólica</td>
+                            <td>Fuerza del Viento</td>
+                            <td>Alta eficiencia de producción en zonas costeras o llanuras.</td>
+                        </tr>
+                        <tr>
+                            <td>Energía Hidroeléctrica</td>
+                            <td>Corrientes de Agua</td>
+                            <td>Generación constante y masiva de electricidad limpia.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>¿Cómo transicionar desde el hogar?</h2>
+                <ul>
+                    <li>Reemplazar focos tradicionales por iluminación tecnología LED de bajo consumo.</li>
+                    <li>Instalar calentadores solares de agua para reducir el uso de gas doméstico.</li>
+                    <li>Adquirir electrodomésticos con certificación de eficiencia energética clase "A" o superior.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EcoVida Project. Enlaces externos de interés: <a href="https://www.un.org/sustainabledevelopment/es/climate-change/" style="color:var(--verde-claro);" target="_blank">ONU - ODS Climáticos</a></p>
+    </footer>
+</body>
+</html>

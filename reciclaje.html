@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida - Guía Práctica de Reciclaje</title>
+    <style>
+        :root {
+            --verde-principal: #2e7d32;
+            --verde-claro: #4caf50;
+            --azul-fondo: #e8f5e9;
+            --gris-oscuro: #333333;
+            --blanco: #ffffff;
+        }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; margin: 0; background-color: var(--azul-fondo); color: var(--gris-oscuro); }
+        header { background-color: var(--verde-principal); color: var(--blanco); padding: 2rem 1rem; text-align: center; }
+        nav { background-color: #1b5e20; display: flex; justify-content: center; padding: 0.5rem; position: sticky; top: 0; }
+        nav a { color: var(--blanco); text-decoration: none; padding: 0.75rem 1.5rem; font-weight: bold; }
+        nav a:hover { background-color: var(--verde-claro); border-radius: 4px; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+        main { background: var(--blanco); padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        h2 { color: var(--verde-principal); border-bottom: 2px solid var(--verde-claro); padding-bottom: 0.5rem; }
+        .hero-image { width: 100%; max-height: 350px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; }
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+        th, td { border: 1px solid #dddddd; text-align: left; padding: 12px; }
+        th { background-color: var(--verde-principal); color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        footer { background-color: #212121; color: #b0bec5; text-align: center; padding: 2rem 1rem; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guía Práctica de Reciclaje Urbano</h1>
+        <p>Aprende a clasificar correctamente tus residuos cotidianos</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="biodiversidad.html">Biodiversidad</a>
+        <a href="reciclaje.html">Guía de Reciclaje</a>
+        <a href="energia.html">Energías Renovables</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section>
+                <h2>El Arte de Separar Correctamente</h2>
+                <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1200&q=80" alt="Contenedores de reciclaje de diferentes colores" class="hero-image">
+                <p>El reciclaje es un proceso cuyo objetivo es convertir residuos en nuevos productos o en materia prima para su posterior utilización. Sin embargo, si mezclamos materiales limpios con residuos orgánicos o aceites, arruinamos la posibilidad de que sean reciclados.</p>
+            </section>
+
+            <section>
+                <h2>Código Internacional de Colores de Contenedores</h2>
+                <p>Usa la siguiente tabla de referencia rápida para ubicar tus desechos en el contenedor correcto:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Color del Contenedor</th>
+                            <th>Tipo de Residuo Aceptado</th>
+                            <th>Ejemplos Comunes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="color: blue; font-weight: bold;">Azul</td>
+                            <td>Papel y Cartón</td>
+                            <td>Cajas, periódicos, revistas, folletos.</td>
+                        </tr>
+                        <tr>
+                            <td style="color: #ffc107; font-weight: bold; background-color: #333;">Amarillo</td>
+                            <td>Envases Plásticos y Latas</td>
+                            <td>Botellas de refresco, latas de aluminio, bolsas.</td>
+                        </tr>
+                        <tr>
+                            <td style="color: green; font-weight: bold;">Verde</td>
+                            <td>Vidrio</td>
+                            <td>Botellas de vidrio, frascos de conservas (sin tapas).</td>
+                        </tr>
+                        <tr>
+                            <td style="color: brown; font-weight: bold;">Marrón / Gris</td>
+                            <td>Materia Orgánica y Desechos</td>
+                            <td>Restos de comida, cáscaras, servilletas sucias.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Pasos Previos para Reciclar Plásticos</h2>
+                <ol>
+                    <li><strong>Vaciar:</strong> Asegúrate de que no queden líquidos ni restos de comida dentro.</li>
+                    <li><strong>Enjuagar:</strong> Pasa un poco de agua limpia para remover grasas o azúcares excedentes.</li>
+                    <li><strong>Aplastar:</strong> Reduce el volumen del envase para optimizar el espacio en el contenedor.</li>
+                </ol>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EcoVida Project. Enlaces externos de interés: <a href="https://www.greenpeace.org" style="color:var(--verde-claro);" target="_blank">Greenpeace</a></p>
+    </footer>
+</body>
+</html>
